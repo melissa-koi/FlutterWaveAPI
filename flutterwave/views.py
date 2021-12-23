@@ -51,7 +51,7 @@ class LoginView(APIView):
 
 class PaymentPlanView(APIView):
     post_url = "https://api.flutterwave.com/v3/payment-plans"
-    key = 'FLWSECK_TEST-f7aa44fea021168c34dc45aed1507291-X'
+    key = config('KEY')
 
     def post(self, request):
         email = request.data['email']
