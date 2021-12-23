@@ -96,7 +96,7 @@ class PaymentPlanView(APIView):
 
         active_url =    "https://api.flutterwave.com/v3/payment-plans?from=2021-01-01&to=2022-05-05&amount=20&currency=USD&interval=monthly&status=active"
         cancelled_url = "https://api.flutterwave.com/v3/payment-plans?from=2021-01-01&to=2022-05-05&amount=20&currency=USD&interval=monthly&status=cancel"
-        key = config('KEY')
+        key = 'FLWSECK_TEST-f7aa44fea021168c34dc45aed1507291-X'
 
 
         headers = {
