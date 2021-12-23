@@ -36,4 +36,4 @@ Here are the steps to follow:
 
 
 ## [Link]( https://m-flutterwave.herokuapp.com/ ) to live webpage
-## [License]()
+## [License]( https://github.com/melissa-koi/FlutterWaveAPI/blob/main/LICENSE )
